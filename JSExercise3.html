@@ -4,16 +4,60 @@
 </title>
 </head>
 <body>
-<p id="demo"></p>
 <script>
-var text = ""
-var i;
-for (i=0; i < 100; i++){
-if (i===5){break;}
-text += "The number " + i + " is prime." + "<br>";
-
+var n = 7
+function testprimenumber(n){
+var c = 1
+if (n%c == 0){
+document.write(n + " is composite." + "<br>");
 }
-document.getElementById("demo").innerHTML = text;
+else{
+document.write(n + "<br>");
+}
+var c = 2
+if (n%c == 0){
+document.write(n + " is composite." + "<br>");
+}
+else{
+document.write(n + "<br>");
+}
+var c = 3
+if (n%c == 0){
+document.write(n + " is composite." + "<br>");
+}
+else{
+document.write(n + "<br>");
+}
+var c = 4
+if (n%c == 0){
+document.write(n + " is composite." + "<br>");
+}
+else{
+document.write(n + "<br>");
+}
+var c = 5
+if (n%c == 0){
+document.write(n + " is composite." + "<br>");
+}
+else{
+document.write(n + "<br>");
+}
+var c = 6
+if (n%c == 0){
+document.write(n + " is composite." + "<br>");
+}
+else{
+document.write(n + "<br>");
+}
+var c = 7
+if (n%c == 0){
+document.write(n + " is composite." + "<br>");
+}
+else{
+document.write(n + "<br>");
+}
+}
+testprimenumber(n);
 </script>
 </body>
 </html>
