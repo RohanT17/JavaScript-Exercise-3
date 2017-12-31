@@ -1,0 +1,50 @@
+<html>
+<head>
+<script>
+function average(g) {
+	return ((g[0] + g[1] + g[2] + g[3]) / 4);
+}
+
+function format(sub, g) {
+	document.write("<br>");
+	document.write("<hr>")
+	document.write(sub + ":");
+	document.write("<br/>");
+	for(i=0; i<=3; i++) {
+		document.write("Q"+(i+1) + " : "+ g[i]);
+		document.write("<br/>");
+ 	}
+	document.write("FG: " + average(g));
+}
+
+var student = {
+FirstName: "Rohan",
+LastName: "Tadisetty",
+Grade: 7
+};
+var formattedFName = student.FirstName.concat(" ");
+var FullName = formattedFName.concat(student.LastName);
+document.write(FullName);
+document.write("<br>");
+document.write("Grade: " + student.Grade);
+
+var Math = [98, 98, 100, 100];
+var English = [95, 97, 96, 96];
+var Science = [91, 95, 93, 93];
+var SocialStudies = [90, 96, 92, 90]; 
+var GiftedandTalented = [93, 96, 97, 94];
+var Music = [98, 100, 100, 100];
+format("Math", Math);
+format("English", English);
+format("Science", Science);
+format("Social Studies", SocialStudies);
+format("Music", Music);
+format("Gifted and Talented", GiftedandTalented);
+</script>
+<title>
+JS Exercise 1
+</title>
+</head>
+<body>
+</body>
+</html>
