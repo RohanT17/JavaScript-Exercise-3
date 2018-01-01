@@ -5,56 +5,12 @@
 </head>
 <body>
 <script>
-var n = 7
+var n = 13
 function testprimenumber(n){
-var c = 1
+for (var c = 1;n >= c; c++){
 if (n%c == 0){
-document.write(n + " is composite." + "<br>");
+document.write(n + " is divisible by " + c + "<br>");
 }
-else{
-document.write(n + "<br>");
-}
-var c = 2
-if (n%c == 0){
-document.write(n + " is composite." + "<br>");
-}
-else{
-document.write(n + "<br>");
-}
-var c = 3
-if (n%c == 0){
-document.write(n + " is composite." + "<br>");
-}
-else{
-document.write(n + "<br>");
-}
-var c = 4
-if (n%c == 0){
-document.write(n + " is composite." + "<br>");
-}
-else{
-document.write(n + "<br>");
-}
-var c = 5
-if (n%c == 0){
-document.write(n + " is composite." + "<br>");
-}
-else{
-document.write(n + "<br>");
-}
-var c = 6
-if (n%c == 0){
-document.write(n + " is composite." + "<br>");
-}
-else{
-document.write(n + "<br>");
-}
-var c = 7
-if (n%c == 0){
-document.write(n + " is composite." + "<br>");
-}
-else{
-document.write(n + "<br>");
 }
 }
 testprimenumber(n);
